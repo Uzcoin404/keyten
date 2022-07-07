@@ -181,6 +181,7 @@
     }
     header{
         position: relative;
+        padding: 0;
         background-position: -0px;
     }
     header .container{
@@ -188,6 +189,7 @@
         background: url('../img/header_mobile.png') no-repeat center / cover;
         background-position: -500px -450px;
         background-size: 350%;
+        padding: 30px 15px;
     }
     .hero, .mobile_header{
         display: block;
@@ -294,7 +296,7 @@
     }
     .intelligence{
         display: block;
-        height: 710px;
+        height: 640px;
     }
     .protection{
         flex-direction: column-reverse;
@@ -368,6 +370,15 @@
         top: 150px;
         right: 10px;
         z-index: 22;
+        transition: all .3s;
+        transform: translateY(-75px);
+        opacity: 0;
+        pointer-events: none;
+    }
+    .mobile_social.active{
+        transform: translateY(0px);
+        opacity: 1;
+        pointer-events: auto;
     }
     .mobile_social .social{
         display: block;
@@ -380,6 +391,10 @@
     }
     .hero_text{
         font-size: 9px;
+    }
+    .contact_title{
+        bottom: 20px;
+        right: 30px;
     }
 }
 @media (max-width: 420px) {
@@ -400,6 +415,9 @@
     .contact_content{
         padding: 0;
     }
+    .contact_nav_logo, .security_bg, .intelligence_bg{
+        display: none;
+    }
 }
 @media (max-width: 380px) {
     header .container{
@@ -409,8 +427,8 @@
         margin-top: 180px;
     }
     .contact_form{
-        padding: 15px;
-        padding-bottom: 25px;
+        padding: 20px 15px;
+        padding-bottom: 30px;
     }
 }
 @media (max-width: 340px) {

@@ -3,6 +3,8 @@ const mobileMenu = document.querySelector('.mobile_menu');
 const closeModal = document.querySelector('.modal_back_btn');
 const contactForm = document.querySelector('.contact_form');
 const modal = document.querySelector('.sendedMessage');
+const shareBtn = document.querySelector('.share_btn');
+const mobileSocial = document.querySelector('.mobile_social');
 
 menuBtn.addEventListener('click', function() {
     mobileMenu.classList.toggle('active');
@@ -20,4 +22,7 @@ contactForm.addEventListener('submit', function(e) {
 });
 closeModal.addEventListener('click', function() {
     modal.classList.remove('open');
+});
+shareBtn.addEventListener('click', function(){
+    mobileSocial.classList.toggle('active');
 });
