@@ -1,0 +1,420 @@
+@media (max-width: 1640px) {
+    .protection_content{
+        width: 35%;
+    }
+}
+@media (max-width: 1400px) {
+    .container{
+        max-width: 1240px;
+        padding: 0 15px;
+    }
+    .protection_content{
+        width: 40%;
+    }
+    .header_card{
+        width: 80%;
+        margin-top: -50px;
+    }
+    .header_key{
+        width: 330px;
+    }
+    .nav_logo{
+        width: 160px;
+    }
+    .nav_link{
+        padding: 5px 20px;
+        line-height: 25px;
+    }
+    .header_buttons a{
+        padding: 0 40px;
+    }
+    .hero_subtitle{
+        font-size: 24px;
+        margin-top: 50px;
+        width: 440px;
+    }
+    .contact_form{
+        padding: 10px 30px;
+    }
+}
+@media (max-width: 1150px) {
+    .hero_title{
+        font-size: 18px;
+    }
+    .hero_price{
+        font-size: 44px;
+    }
+    .hero_price_text{
+        font-size: 10px;
+    }
+    .hero_price_card{
+        width: 260px;
+        margin: 15px 0 25px;
+    }
+    .protection_content{
+        padding-top: 40px;
+        padding-right: 40px;
+    }
+    .protection_text, .intelligence_text{
+        width: 100%;
+    }
+}
+@media (max-width: 992px) {
+    .header_key{
+        display: none;
+    }
+    .section_text, .hero_text{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .hero_text{
+        font-size: 11px;
+    }
+    .header_buttons{
+        flex-wrap: wrap;
+    }
+    .header_card{
+        width: 90%;
+    }
+    .header_btn2{
+        margin-top: 10px;
+    }
+    .hero_title{
+        width: 400px;
+        line-height: 24px;
+    }
+    .reliability_content{
+        margin-left: 0%;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .reliability_text{
+        width: 400px;
+    }
+    .section_icon{
+        margin-bottom: 0px;
+    }
+    .reliability_content .section_icon{
+        margin-right: 40%;
+    }
+    .security_content{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .security_text{
+        width: 100%;
+        padding-right: 15px;
+    }
+    .form_textarea{
+        height: 250px;
+        max-height: 250px;
+        min-height: 100px;
+    }
+    .security_content{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .security_img{
+        width: 60%;
+    }
+    .contact{
+        height: 550px;
+    }
+}
+@media (max-width: 768px) {
+    header{
+        padding: 30px 0;
+    }
+    .hero_btn, .hero_subtitle{
+        display: none;
+    }
+    .section_title {
+        font-size: 25px;
+    }
+    .hero_text{
+        width: 100%;
+    }
+    .hero_title{
+        width: 100%;
+    }
+    .protection_content{
+        width: 45%;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .security_content, .intelligence_content{
+        margin-left: 20px;
+    }
+    .contact_content{
+        width: 50%;
+    }
+    .nav_link{
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+    .hero_price_card{
+        width: 200px;
+        height: 70px;
+        padding: 5px 0;
+        padding-left: 10px;
+    }
+    .hero_price{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .hero_price_text{
+        line-height: 16px;
+        font-size: 7px;
+    }
+    .nav_logo{
+        width: 120px;
+        margin-right: 30px;
+    }
+}
+@media (max-width: 576px) {
+    .nav_list, .hero_text, .header_buttons, .header_card{
+        display: none;
+    }
+    header{
+        position: relative;
+        background-position: -0px;
+    }
+    header .container{
+        justify-content: flex-start;
+        background: url('../img/header_mobile.png') no-repeat center / cover;
+        background-position: -500px -450px;
+        background-size: 350%;
+    }
+    .hero, .mobile_header{
+        display: block;
+    }
+    .mobile_header{
+        margin-top: 300px;
+    }
+    .mobile_header .hero_text{
+        display: block;
+    }
+    .mobile_header .header_buttons{
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 0;
+    }
+    .mobile_header .header_buttons a{
+        padding: 0 15px;
+    }
+    .mobile_header .header_btn2{
+        margin-top: 0;
+    }
+    .hero_price_card{
+        margin-left: -15px;
+        margin-top: 75px;
+    }
+    .hero_title{
+        width: 250px;
+        letter-spacing: 1px;
+        line-height: 22px;
+    }
+    nav{
+        margin-bottom: 15px;
+        justify-content: space-between;
+    }
+    .menu_btn{
+        display: block;
+        z-index: 999;
+    }
+    .mobile_menu{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 99;
+        background: #344440;
+        padding-top: 150px;
+        transform: translateX(100%);
+        transition: all .3s;
+    }
+    .mobile_menu.active{
+        transform: translateX(0%);
+    }
+    .mobilile_menu_content{
+        position: relative;
+        height: 100%;
+    }
+    .mobile_nav_link{
+        font-size: 16px;
+        line-height: 33px;
+        color: #FFFFFF;
+        padding: 0 25px;
+        margin-bottom: 20px;
+    }
+    .mobile_menu .social_media{
+        background-color: #fff;
+    }
+    .mobile_menu .social{
+        display: flex;
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+    }
+    .mobile_nav_btn{
+        margin: 50px 25px;
+        position: relative;
+    }
+    .mobile_nav_btn img{
+        position: absolute;
+        width: 40%;
+        top: -40px;
+    }
+    .mobile_menu .header_btn2{
+        width: 100%;
+        justify-content: flex-end;
+        font-size: 16px;
+    }
+    .reliability_content{
+        display: block;
+        margin: 0 auto;
+        padding: 0 15px;
+        position: absolute;
+        bottom: 0px;
+        padding-bottom: 30px;
+        background: linear-gradient(8.22deg, rgba(0, 0, 0, 0.800) 12.98%, rgba(0, 0, 0, 0) 81.16%);
+    }
+    .reliability{
+        height: 465px;
+    }
+    .security{
+        height: 400px;
+        display: block;
+    }
+    .intelligence{
+        display: block;
+        height: 710px;
+    }
+    .protection{
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .contact{
+        height: 900px;
+        flex-direction: column-reverse;
+    }
+    .security_img, .protection_img, .intelligence_img, .contact_img{
+        width: 100%;
+        margin: 0;
+        height: 240px;
+        position: relative;
+    }
+    .protection_img{
+        height: 440px;
+    }
+    .contact_img{
+        height: 400px;
+    }
+    .security_title, .intelligence_title{
+        margin: 0;
+        bottom: 20px;
+        left: 30px;
+        position: absolute;
+    }
+    .security_content, .protection_content, .intelligence_content, .contact_content{
+        width: 100%;
+        margin: 0;
+        padding: 15px 30px;
+    }
+    .protection_title{
+        bottom: 20px;
+        right: 20px;
+    }
+    .section_title{
+        font-size: 20px;
+    }
+    .section_text{
+        font-size: 9px;
+    }
+    .section_icon{
+        width: 40px;
+        height: 40px;
+    }
+    .form_textarea{
+        height: 150px;
+        max-height: 200px;
+    }
+}
+@media (max-width: 500px) {
+    header .container{
+        background-position: -450px -350px;
+        background-size: 350%;
+    }
+    .share_btn{
+        display: block;
+        position: absolute;
+        top: 90px;
+        right: 15px;
+        z-index: 15;
+    }
+    .share_btn img{
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .mobile_social{
+        display: block;
+        position: absolute;
+        top: 150px;
+        right: 10px;
+        z-index: 22;
+    }
+    .mobile_social .social{
+        display: block;
+    }
+    .mobile_social .social_media{
+        margin-bottom: 10px;
+    }
+    .reliability{
+        background: url('../img/reliability-mobile.jpg') no-repeat center / cover;
+    }
+    .hero_text{
+        font-size: 9px;
+    }
+}
+@media (max-width: 420px) {
+    header .container{
+        background-position: -400px -300px;
+    }
+    .reliability_text{
+        width: 100%;
+    }
+    .reliability_title{
+        top: 150px;
+        right: 35px;
+        text-align: right;
+    }
+    .reliability_title{
+        top: 200px; 
+    }
+    .contact_content{
+        padding: 0;
+    }
+}
+@media (max-width: 380px) {
+    header .container{
+        background-position: -350px -250px;
+    }
+    .mobile_header{
+        margin-top: 180px;
+    }
+    .contact_form{
+        padding: 15px;
+        padding-bottom: 25px;
+    }
+}
+@media (max-width: 340px) {
+    header .container{
+        background-position: -320px -220px;
+    }
+}
