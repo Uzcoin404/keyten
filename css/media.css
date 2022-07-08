@@ -129,6 +129,9 @@
     header{
         padding: 30px 0;
     }
+    .hero{
+        margin-top: 75px;
+    }
     .hero_btn, .hero_subtitle{
         display: none;
     }
@@ -204,6 +207,9 @@
         display: flex;
         flex-wrap: nowrap;
         margin: 0;
+    }
+    .hero{
+        margin-top: 0px;
     }
     .mobile_header .header_buttons a{
         padding: 0 15px;
@@ -353,6 +359,9 @@
         background-position: -450px -350px;
         background-size: 350%;
     }
+    .mobile_header{
+        margin-top: 180px;
+    }
     .share_btn{
         display: block;
         position: absolute;
@@ -396,13 +405,14 @@
         bottom: 20px;
         right: 30px;
     }
-    .header_buttons{
+    .mobile_header .header_buttons{
         justify-content: space-between;
         width: 100%;
     }
-    .header_buttons .btn{
+    .mobile_header .header_buttons .btn{
         width: 100%;
         justify-content: center;
+        padding: 0 10px;
     }
 }
 @media (max-width: 420px) {
