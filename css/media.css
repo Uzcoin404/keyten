@@ -189,7 +189,7 @@
         background: url('../img/header_mobile2.png') no-repeat center / cover;
         background-position: -500px -450px;
         background-size: 350%;
-        padding: 30px 15px;
+        padding: 25px 15px;
     }
     .hero, .mobile_header{
         display: block;
@@ -397,6 +397,11 @@
         right: 30px;
     }
     .header_buttons{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header_buttons .btn{
+        width: 100%;
         justify-content: center;
     }
 }
@@ -413,7 +418,7 @@
         text-align: right;
     }
     .reliability_title{
-        top: 200px; 
+        top: 220px; 
     }
     .contact_content{
         padding: 0;
@@ -424,6 +429,10 @@
     .mobile_header{
         margin-top: 180px;
     }
+    .contact_form{
+        padding: 20px 15px;
+        padding-bottom: 30px;
+    }
 }
 @media (max-width: 380px) {
     header .container{
@@ -431,10 +440,6 @@
     }
     .mobile_header{
         margin-top: 180px;
-    }
-    .contact_form{
-        padding: 20px 15px;
-        padding-bottom: 30px;
     }
 }
 @media (max-width: 350px) {
