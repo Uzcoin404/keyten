@@ -37,12 +37,11 @@
 header {
     background: url("../img/header-banner.jpg") no-repeat center / cover;
     padding: 50px 0;
+    min-height: 100vh;
 }
 header .container{
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 nav {
     display: flex;
