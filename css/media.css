@@ -186,7 +186,7 @@
     }
     header .container{
         justify-content: flex-start;
-        background: url('../img/header_mobile.png') no-repeat center / cover;
+        background: url('../img/header_mobile2.png') no-repeat center / cover;
         background-position: -500px -450px;
         background-size: 350%;
         padding: 30px 15px;
@@ -431,8 +431,11 @@
         padding-bottom: 30px;
     }
 }
-@media (max-width: 340px) {
+@media (max-width: 350px) {
     header .container{
         background-position: -320px -220px;
+    }
+    .mobile_header{
+        margin-top: 150px;
     }
 }
