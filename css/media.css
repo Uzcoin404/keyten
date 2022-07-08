@@ -227,6 +227,7 @@
         line-height: 22px;
     }
     nav{
+        width: 100%;
         margin-bottom: 15px;
         justify-content: space-between;
     }
@@ -356,7 +357,7 @@
 }
 @media (max-width: 500px) {
     header .container{
-        background-position: -450px -350px;
+        background-position: -450px -400px;
         background-size: 350%;
     }
     .mobile_header{
@@ -415,7 +416,7 @@
         padding: 0 10px;
     }
 }
-@media (max-width: 420px) {
+@media (max-width: 425px) {
     header .container{
         background-position: -400px -300px;
     }
