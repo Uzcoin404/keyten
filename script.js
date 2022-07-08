@@ -19,9 +19,11 @@ menuBtn.addEventListener('click', function() {
 contactForm.addEventListener('submit', function(e) {
     e.preventDefault();
     modal.classList.add('open');
+    document.body.style = `overflow: hidden; `;
 });
 closeModal.addEventListener('click', function() {
     modal.classList.remove('open');
+    document.body.style = `overflow: auto;`;
 });
 shareBtn.addEventListener('click', function(){
     mobileSocial.classList.toggle('active');
