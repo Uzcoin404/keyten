@@ -396,6 +396,9 @@
         bottom: 20px;
         right: 30px;
     }
+    .header_buttons{
+        justify-content: center;
+    }
 }
 @media (max-width: 420px) {
     header .container{
@@ -417,6 +420,9 @@
     }
     .contact_nav_logo, .security_bg, .intelligence_bg{
         display: none;
+    }
+    .mobile_header{
+        margin-top: 180px;
     }
 }
 @media (max-width: 380px) {
